@@ -1,17 +1,17 @@
-import {createBrowserRouter} from 'react-router-dom'
-import AuthLayout from './layouts/AuthLayout'
-import Layout from './layouts/Layout'
-import Inicio from './views/Inicio'
-import Login from './views/Login'
+import { createBrowserRouter } from "react-router-dom";
+import Layout from './layouts/Layout';
+import AuthLayout from './layouts/AuthLayout';
+import Inicio from './views/Inicio';
+import Login from './views/Login';
+import Registro from "./views/Registro";
 
 const router=createBrowserRouter([
     {
         path:'/',
-
         element: <Layout />,
         children:[
             {
-                path:true,
+                index:true,
                 element:<Inicio />
             }
         ]
@@ -21,8 +21,12 @@ const router=createBrowserRouter([
         element: <AuthLayout />,
         children:[
             {
-                path: true,
+                path: '/auth/Login',
                 element: <Login/>
+            },
+            {
+                path: '/auth/Registro',
+                element: <Registro />
             }
         ]
     }

@@ -1,11 +1,18 @@
-import {Outlet} from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Sidebar from '../components/Sidebar';
 
-export default function Layout()
-{
-    return(
-        <div>Layout
 
-            <Outlet/>
+//OUTLET TE PERMITE QUE SE MUESTRE TU PAGINA DE INICIO AL PRINCIO
+
+export default function Layout() {
+    return (
+        <div>
+            <Sidebar/>
+            
+            <Outlet />
+        
         </div>
+
     )
 }
+
