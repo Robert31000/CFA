@@ -11,7 +11,7 @@ export default function AuthLayout()
             />
         <div className="p-10 w-full"> 
             <Outlet />
-            hola
+            
         </div>
 
         </main>

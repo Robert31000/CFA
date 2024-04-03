@@ -3,7 +3,7 @@
 export default function Sidebar()
 {
     return(
-        <div>Resumen</div>
+        <div className="md:w-72">Sidebar</div>
 
     )
 }
