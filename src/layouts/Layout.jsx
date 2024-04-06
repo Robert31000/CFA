@@ -7,12 +7,16 @@ import Resumen from '../components/Resumen';
 
 export default function Layout() {
     return (
-        <div className=' '>
+        <div >
 
-          
+          <div className='flex float-end p-2'>
+            <img  className='h-6'src='../img/iconofacebook.svg'/>
+            <img  className='h-6'src='../img/iconoinstagram.svg'/>
+            <img  className='h-6'src='../img/iconoyoutube.png '/>
+          </div>
 
             <header>
-                <h1 className='p-5 font-bold text-center  uppercase '>centro familiar de adoración</h1>
+                <h1 className='p-5 font-bold text-center uppercase  text-2xl'>centro familiar de adoración</h1>
             </header>
 
             <nav className='flex md:flex-row justify-between bg-cyan-500 text-w'> 
@@ -28,7 +32,8 @@ export default function Layout() {
 
             <img 
             src='../img/principal.jpg'
-            className='w-full shadow-md' 
+            className='w-full shadow-xl filter brightness-50	' 
+            alt='Imagen principal'
 
             />
             <Sidebar/>
