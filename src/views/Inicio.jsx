@@ -4,7 +4,7 @@
  {
     return(
         <div>
-            INicio
+           PAGINA INICIO CFA
         </div>
 
 

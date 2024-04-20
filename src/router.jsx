@@ -4,6 +4,7 @@ import AuthLayout from './layouts/AuthLayout';
 import Inicio from './views/Inicio';
 import Login from './views/Login';
 import Registro from "./views/Registro";
+import Red_Joven from "./views/Red_joven";
 
 const router=createBrowserRouter([
     {
@@ -11,11 +12,14 @@ const router=createBrowserRouter([
         element: <Layout />,
         children:[
             {
-                index:true,
+                path:'/Inicio',
                 element:<Inicio />
-            }
-        ]
-    },
+            }]
+        },
+            {
+                path:'/Red_joven',
+                element:<Red_Joven/>
+            },
     {
         path:'/auth',
         element: <AuthLayout />,
