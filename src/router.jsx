@@ -5,6 +5,7 @@ import Inicio from './views/Inicio';
 import Login from './views/Login';
 import Registro from "./views/Registro";
 import Red_Joven from "./views/Red_joven";
+import Contactanos from "./views/Contactanos";
 
 const router=createBrowserRouter([
     {
@@ -20,6 +21,11 @@ const router=createBrowserRouter([
                 path:'/Red_joven',
                 element:<Red_Joven/>
             },
+            {
+                path:'/Contactanos',
+                element:<Contactanos/>
+            },
+            
     {
         path:'/auth',
         element: <AuthLayout />,
