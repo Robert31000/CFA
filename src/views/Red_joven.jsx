@@ -8,7 +8,7 @@ export default function Red_Joven(){
 
     <div>
         <div className='flex md:float-end p-4 text-1xl font-serif'>
-<a href='https://www.facebook.com/profile.php?id=100081189810511'> <img  className='inline-block h-6 w-6 rounded-full ring-2 ring-white'  src='../img/iconofacebook.svg'/> </a>
+     <a href='https://www.facebook.com/profile.php?id=100081189810511'> <img  className='inline-block h-6 w-6 rounded-full ring-2 ring-white'  src='../img/iconofacebook.svg'/> </a>
           <a href='https://www.instagram.com/red_de_jovenescfa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>  <img  className='inline-block h-6 w-6 rounded-full ring-2 ring-white 'src='../img/iconoinstagram.svg'/> </a>
            <a href='https://www.youtube.com/@reddejovenescfa3721'><img  className='inline-block h-6 w-6 rounded-full ring-2 ring-white 'src='../img/iconoyoutube.png '/> </a> 
       
@@ -25,6 +25,21 @@ export default function Red_Joven(){
                <Link className='p-2 md:p-4 md:hover:bg-yellow-500 text-white font-black' to='#'>Noticias</Link>
                <Link className='p-2 md:p-4 md:hover:bg-yellow-500 text-white font-black' to='/Contactanos'>Contactanos</Link>
             </nav>
+
+
+            <div className='w-full brightness-75  '>
+             <video className='  h-96 w-full object-cover' autoPlay muted loop>
+             <source src='../video/intro.mp4' type='video/mp4' ></source>
+            </video>
+       </div>
+
+
+       <div class="z-40 ...">05</div>
+<div class="z-30 ...">04</div>
+<div class="z-20 ...">03</div>
+<div class="z-10 ...">02</div>
+<div class="z-0 ...">01</div>
+
     </div>
     )
 }

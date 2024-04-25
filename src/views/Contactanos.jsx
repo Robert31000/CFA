@@ -31,7 +31,7 @@ export default function Contactanos ()
 
             <img 
             src='../img/contactoPrin.jpg'
-            className='w-full shadow-xl filter  brightness-50 	' 
+            className='w-full h-96 filter  brightness-50 	' 
             alt='Imagen principal'
             
             /> 

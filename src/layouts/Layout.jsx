@@ -31,7 +31,7 @@ export default function Layout() {
        <div>
        <img 
             src='../img/principal.jpg'
-            className='w-full shadow-xl filter brightness-50 	' 
+            className='w-full h-96 filter brightness-50 	' 
             alt='Imagen principal'
             
             />
