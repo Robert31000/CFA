@@ -69,9 +69,7 @@ export default function Layout() {
 
 
 
-    <img className="h-full rounded-lg  animate-flip-down animate-once
-
-" src="../img/redJuvenil1.jpeg" />
+    <img className="h-full rounded-lg  animate-flip-down animate-once" src="../img/redJuvenil1.jpeg" />
     <div className="text-center md:text-left">
         <h3 className="text-blue-600 font-black text-2xl mb-2 md:text-lg">La visión del líder juvenil es ver a los jóvenes y adolescentes llegar a ser como Cristo.</h3>
         <p className="text-black p-1 animate-in fade-in zoom-in ">
@@ -91,10 +89,10 @@ export default function Layout() {
      real con sus semejantes fuera de la iglesia; de tal manera, que la iglesia camine y supla las necesidades 
      de otros en la vida diaria.
 
-<div> 
-Contamos con reuniones para estudiar la Palabra de Dios, las cuales se realizan en tanto en las instalaciones
- de Centro de Vida Cristiana, como en las casas de los miembros como lo describe <span className='text-blue-500'>Hechos 5:42.</span>
-    </div>
+     <div> 
+       Contamos con reuniones para estudiar la Palabra de Dios, las cuales se realizan en tanto en las instalaciones
+       de Centro de Vida Cristiana, como en las casas de los miembros como lo describe <span className='text-blue-500'>Hechos 5:42.</span>
+     </div>
 
     </div>
 

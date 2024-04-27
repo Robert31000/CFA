@@ -33,12 +33,16 @@ export default function Red_Joven(){
             </video>
        </div>
 
+       <div class="grid grid-rows-3 grid-flow-col gap-4 p-5">
+        <div class="row-span-3 ..."> 
+           <img className="h-full w-auto rounded-lg" src="../img/red_joven.jpg" />
+       </div>
+       <div class="col-span-2 text-center font-black  ...">¿Que es la Red De Jovenes?</div>
+        <div class="row-span-2 col-span-2 ...">El ministerio juvenil es una parte vital del trabajo de la iglesia que se enfoca en alcanzar, discipular y equipar a los jóvenes en su fe cristiana. Este ministerio está diseñado específicamente para satisfacer las necesidades espirituales, emocionales y sociales de los jóvenes, generalmente entre las edades de adolescencia y juventud temprana</div>
+      </div>
 
-       <div class="z-40 ...">05</div>
-<div class="z-30 ...">04</div>
-<div class="z-20 ...">03</div>
-<div class="z-10 ...">02</div>
-<div class="z-0 ...">01</div>
+
+       
 
     </div>
     )
