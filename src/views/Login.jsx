@@ -20,7 +20,7 @@ export default function Login()
                     type="text"
                     id="email"
                     className="mt-2 w-full p-3 bg-gray-50"
-                    placeholder=" Escribe tu correo electronico"
+                    placeholder=" Escribe tu correo electronico "
                     name="email"
                 />
             </div>
