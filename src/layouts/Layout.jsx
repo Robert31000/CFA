@@ -88,9 +88,9 @@ export default function Layout() {
                 </div>
     */}
 
-            <section className="grid grid-cols-1 md:grid-cols-3 gap-6 m-auto">
+            <section className="grid grid-cols-1 md:grid-cols-3  m-auto">
                 <img className="w-full h-auto" src="../img/culto2.jpg" alt="Culto 1" />
-                <img className="hidden md:block w-full h-auto" src="../img/culto3.jpg" alt="Culto 2" />
+                <img className="hidden md:block w-full h-full" src="../img/culto3.jpg" alt="Culto 2" />
                 <img className="hidden md:block w-full h-full" src="../img/culto1.jpg" alt="Culto 3" />
             </section>
 
