@@ -40,39 +40,56 @@ export default function Red_Joven(){
       </div>
 
       
-      <div className="overflow-x-auto">
-    <div className="flex space-x-4 p-4">
-        <div className="w-60 h-60 flex-none">
-            <a href="https://youtu.be/PoBkxBucY9A?si=mQQ8OoHAid7XNBzI" target="_blank">
-                <img src="img/culto11-05-24.jpg" alt="Video 1"/>
-            </a>
+    <div className="flex flex-col md:flex-row md:justify-between m-auto items-center sm:grid sm:gap-x-8 sm:gap-y-4 sm:grid-cols-4">
+        <div className="w-60 h-60  m-auto ">
+            <iframe className=' rounded-2xl' width="200" height="150" src="https://www.youtube.com/embed/YUOCEYb0la8?si=UbPWYrgczU9d4jyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      
+                  
             <p className="text-center mt-2 font-semibold">Como manejar la alegria</p>
-            <p className=" mt-2">Pastor Jose Daniel </p>
-            <p className=" mt-2">11 de mayo </p>
-
-
+            <p className=" ">Pastor Jose Daniel </p>
+            <p className=" ">11 de mayo </p>
         </div>
-        <div className="w-60 h-60 flex-none">
-            <a href="https://youtu.be/eYAuv5eRlZ8?si=Ow4bP2k4V3ArLCp8" target="_blank">
-                <img src="img/culto04-05-24.jpg" alt="Video 2" />
-            </a>
-            <p className=" mt-2 font-semibold">Como manejar el desagrado </p>
-            <p className=" mt-2">Pastor Jose Daniel </p>
-            <p className="mt-2">4 de mayo </p>
 
-
+        <div className="w-60 h-60  m-auto ">
+            <iframe className=' rounded-2xl' width="200" height="150" src="https://www.youtube.com/embed/PoBkxBucY9A?si=pmm2kcos1AnQugCL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p className="text-center mt-2 font-semibold">Como manejar la alegria</p>
+            <p className=" ">Pastor Jose Daniel </p>
+            <p className=" ">11 de mayo </p>
         </div>
-        <div className="w-60 h-60 flex-none">
-            <a href="https://youtu.be/jjLh8Bo1wnM?si=VIqxoLGgiybYDl6U" target="_blank">
-                <img src="img/culto26-04-24.jpg" alt="Video 3" />
-            </a>
-            <p className=" mt-2 font-semibold">Como manejar el miedo y la ansiedad</p>
-            <p className=" mt-2 font-semibold">Pastor Jose Daniel </p>
-            <p className=" mt-2">26 de abril </p>
 
+        <div className="w-60 h-60 m-auto ">
+            <iframe  className=' rounded-2xl' width="200" height="150" src="https://www.youtube.com/embed/eYAuv5eRlZ8?si=CpgPZs5lUyzDxSyK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <p className="text-center mt-2 font-semibold">Como manejar la alegria</p>
+            <p className=" ">Pastor Jose Daniel </p>
+            <p className=" ">11 de mayo </p>
         </div>
+
+        <div className="w-60 h-60 m-auto ">
+            <iframe className=' rounded-2xl' width="200" height="150" src="https://www.youtube.com/embed/jjLh8Bo1wnM?si=YKaA6mfDvBbwPzAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+            <p className="text-center mt-2 font-semibold">Como manejar la alegria</p>
+            <p className=" ">Pastor Jose Daniel </p>
+            <p className=" ">11 de mayo </p>
+        </div>
+
+
+        <div className="w-60 h-60 m-auto ">
+            <iframe className=' rounded-2xl' width="200" height="150" src="https://www.youtube.com/embed/d2t2tDsZi5c?si=J2xEMS_X1wOV4s5n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+            <p className="text-center mt-2 font-semibold">Como manejar la alegria</p>
+            <p className=" ">Pastor Jose Daniel </p>
+            <p className=" ">11 de mayo </p>
+        </div>
+
+
+        <div className="w-60 h-60 m-auto ">
+<iframe className=' rounded-2xl' width="200" height="150" src="https://www.youtube.com/embed/5_b_dNU6fTA?si=hGa3ONJsRZ2htout" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <p className="text-center mt-2 font-semibold">Como manejar la alegria</p>
+            <p className=" ">Pastor Jose Daniel </p>
+            <p className=" ">11 de mayo </p>
+        </div>
+
+
     </div>
-</div>
 
 
 
@@ -90,7 +107,7 @@ export default function Red_Joven(){
                     <Link className='p-2 md:p-4 text-white font-black' to='/Inicio'>Inicio</Link>
                     <Link className='p-2 md:p-4 text-white font-black' to='/Red_joven'>Red Jovenes</Link>
                     <Link className='p-2 md:p-4 text-white font-black' to='#'>Noticias</Link>
-                    <Link className='p-2 md:p-4 text-white font-black' to='#'>Contactanos</Link>
+                    <Link className='p-2 md:p-4 text-white font-black' to='/Contactanos'>Contactanos</Link>
                 </nav>
             </footer>
 
