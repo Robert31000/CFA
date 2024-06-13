@@ -23,7 +23,7 @@ export default function Red_Joven() {
   const paginatedVideos = videos.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
   return (
-    <div>
+    <div className='bg-gray-100'>
       <div className='flex justify-end p-4 text-1xl font-serif'>
         <a href='https://www.facebook.com/profile.php?id=100081189810511'>
           <img className='inline-block h-6 w-6 rounded-full ring-2 ring-white' src='../img/iconofacebook.svg' />
@@ -99,7 +99,7 @@ export default function Red_Joven() {
         <div className="flex items-center">
           <img
             className="w-16 h-16 rounded-full mr-4"
-            src="https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.6435-9/195833184_2513611418784079_4515032725592290532_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ClAc6TOvnwMQ7kNvgFP1hr1&_nc_ht=scontent.fsrz4-1.fna&oh=00_AYARoHQoYAse5j8A6Ocov17HnVDeNEHWpOv8Th-4ke_qbA&oe=66907C1D"
+            src="https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.6435-9/70638460_1867003500111544_352851741122756608_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nWWMR_PpEhEQ7kNvgFwrow0&_nc_ht=scontent.fsrz4-1.fna&oh=00_AYAwM5HHdFYeXPJdxj-7d_dqsS1iXVjfmjl0qAAYAH32Gg&oe=6692A59D"
             alt="Avatar of Andrew Alfred"
           />
           <div>
@@ -129,63 +129,29 @@ export default function Red_Joven() {
 
       </div>
 
+      <div className="text-center p-8 bg-gray-200 rounded-lg shadow-lg max-w-4xl mx-auto">
+  <h3 className="text-2xl font-extrabold text-gray-900 mb-6">Mensaje de nuestros pastores</h3>
+  <img 
+    className="h-80 w-80 m-auto mb-6 p-5 rounded-3xl object-cover"
+    src="/img/mensajePastores.jpg"
+    alt="Pastores"
+  />
+  <p className="font-sans text-lg text-gray-700 leading-relaxed mb-4">
+    Nos sentimos profundamente honrados y agradecidos por la oportunidad de dirigirnos a ustedes. Como pastores de esta amada congregación, queremos expresar nuestra más sincera gratitud por la fe y el compromiso que demuestran diariamente en su caminar con el Señor. Es un privilegio servir a una comunidad tan vibrante y llena de amor como la nuestra.
+  </p>
+  <p className="font-sans text-lg text-gray-700 leading-relaxed">
+    Nuestro deseo más ferviente es que cada uno de ustedes sienta el amor y la paz de Cristo en su vida diaria. Sabemos que cada día trae consigo sus propios desafíos, pero confiamos en que, con la guía del Espíritu Santo, podemos superarlos juntos, fortalecidos por la oración y la Palabra de Dios.
+  </p>
+  <div className="mt-6">
+    <p className="text-lg font-bold text-gray-900">Con amor y bendiciones,</p>
+    <p className="text-lg text-gray-700">Jose Daniel Gutierrez y Sarahi Lara De Gutierrez</p>
+  </div>
+</div>
 
 
 
-      <div className='py-4 font-bold'>
-      <h4>Nuestros Lideres</h4>
 
-      <div className="overflow-x-scroll py-4">
-        <div className="flex space-x-4">
-          <div className="flex-shrink-0 text-center">
-            <img
-              className="w-16 h-16 rounded-full mr-4"
-              src="https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.6435-9/39441691_10212418554081494_1665806402943188992_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Oqj2qzn6wuUQ7kNvgF9Mp54&_nc_ht=scontent.fsrz4-1.fna&oh=00_AYBunaqywqAmerfwJc0srtcoaRi6rDay2jfWvcas6_fvvw&oe=66904F28"
-              alt="Avatar of Eugenia Celia Mamani Balboa"
-            />
-            <div>
-              <h3 className="text-lg font-bold text-gray-900">Eugenia Celia Mamani Balboa</h3>
-              <p className="text-gray-600">Lider</p>
-            </div>
-          </div>
-          <div className="flex-shrink-0 text-center">
-            <img
-              className="w-16 h-16 rounded-full mr-4"
-              src="https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.18169-9/10931548_10152573432881497_4902022133023466465_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8X2BWuPyIjgQ7kNvgEhIUPZ&_nc_ht=scontent.fsrz4-1.fna&oh=00_AYDW8-Zhdq25QAxJr0M8voXuN_syhYCGz8r_Ad3b0Pm4zw&oe=66908C5D"
-              alt="Avatar of Milton Sandoval"
-            />
-            <div>
-              <h3 className="text-lg font-bold text-gray-900">Milton Sandoval</h3>
-              <p className="text-gray-600">Lider</p>
-            </div>
-          </div>
-          <div className="flex-shrink-0 text-center">
-            <img
-              className="w-16 h-16 rounded-full mr-4"
-              src="https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.18169-9/10931548_10152573432881497_4902022133023466465_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8X2BWuPyIjgQ7kNvgEhIUPZ&_nc_ht=scontent.fsrz4-1.fna&oh=00_AYDW8-Zhdq25QAxJr0M8voXuN_syhYCGz8r_Ad3b0Pm4zw&oe=66908C5D"
-              alt="Avatar of Milton Sandoval"
-            />
-            <div>
-              <h3 className="text-lg font-bold text-gray-900">Milton Sandoval</h3>
-              <p className="text-gray-600">Lider</p>
-            </div>
-          </div>
-          <div className="flex-shrink-0 text-center">
-            <img
-              className="w-16 h-16 rounded-full mr-4"
-              src="https://scontent.fsrz4-1.fna.fbcdn.net/v/t1.18169-9/10931548_10152573432881497_4902022133023466465_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8X2BWuPyIjgQ7kNvgEhIUPZ&_nc_ht=scontent.fsrz4-1.fna&oh=00_AYDW8-Zhdq25QAxJr0M8voXuN_syhYCGz8r_Ad3b0Pm4zw&oe=66908C5D"
-              alt="Avatar of Milton Sandoval"
-            />
-            <div>
-              <h3 className="text-lg font-bold text-gray-900">Milton Sandoval</h3>
-              <p className="text-gray-600">Lider</p>
-            </div>
-          </div>
-        </div>
-      </div>
     
-      </div>
-
 
 
       

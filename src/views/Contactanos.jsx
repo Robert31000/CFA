@@ -5,6 +5,8 @@ import 'animate.css/animate.min.css';
 export default function Contactanos() {
     return (
         <>
+        <div className='bg-gray-100'>
+
         <div className='flex md:float-end p-4 text-1xl font-serif '>
  {/*      <Link className='p-2 h-5' to='/Inicio'><img  className='h-6 p-1'src='../img/images.jpeg '/> </Link>  */} 
         <a href='https://www.facebook.com/profile.php?id=100081189810511'> <img  className='inline-block h-6 w-6 rounded-full ring-2 ring-white'  src='../img/iconofacebook.svg'/> </a>
@@ -104,6 +106,7 @@ export default function Contactanos() {
                     <Link className='p-2 md:p-4 text-white font-black' to='#'>Contactanos</Link>
                 </nav>
             </footer>
+            </div>
         </>
     )
 }

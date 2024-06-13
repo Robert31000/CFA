@@ -3,7 +3,7 @@ import 'animate.css/animate.min.css';
 
 export default function Layout() {
     return (
-        <div className="">
+        <div className="bg-gray-100">
             <div className="flex justify-end p-4 text-1xl font-serif ">
                 <a href="https://www.facebook.com/profile.php?id=100081189810511">
                     <img className="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="../img/iconofacebook.svg" alt="Facebook" />
